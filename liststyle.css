@@ -1,0 +1,178 @@
+body {
+    display: grid;
+    place-items: center;
+    background-color: #e7ecf1;
+}
+
+.section-center {
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 4px 6px 4px 2px #1a191911;
+    transition: all 0.3s linear;
+    padding: 2rem;
+    padding-top: 0;
+    width: 90rem;
+    max-width: 28rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.section-center:hover {
+    box-shadow: 6px 8px 6px 4px #0a0a0a11;
+}
+
+.alerta {
+    text-transform: capitalize;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: grid;
+    height: 1.25rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 2rem;
+}
+
+.alerta-danger {
+    color: #e40d0d;
+    background-color: #ddb8b8;
+}
+
+.alerta-success {
+    color: #07e925;
+    background-color: #61bd6d;
+}
+
+.lista h2 {
+    color: #364ed6;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin-bottom: 1.8rem;
+}
+
+.controle-lista {
+    display: flex;
+    justify-content: center;
+}
+
+#nome {
+    padding: 0.25rem;
+    padding-left: 1rem;
+    background: #c3e7e788;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: #3e3f42;
+    border-color: transparent;
+    flex: 1 0 auto;
+}
+
+.submit-btn {
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    background: #70c4e6;
+    border-color: transparent;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    flex: 0 0 5rem;
+    padding: 0.25rem;
+    align-items: center;
+    text-transform: capitalize;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #008cff;
+    color: #fff;
+}
+
+.lista-container {
+    margin-top: 2rem;
+    transition: all 0.3s linear;
+    visibility: hidden;
+}
+
+.show-container {
+    visibility: visible;
+}
+
+.item-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s linear;
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.item-button:hover {
+    background: #c3e7e788;
+    color: #3e3f42;
+}
+
+.lista-item:hover .item-nome {
+    color: #3e3f42;
+}
+
+.item-nome {
+    font-size: 1rem;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.3s linear;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+.edit-btn,
+.delete-btn {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    margin: 0 0.15rem;
+    transition: all 0.3s linear;
+}
+
+.edit-btn {
+    color: #33c725;
+}
+
+.edit-btn:hover {
+    color: #15ff00;
+}
+
+.delete-btn {
+    color: #c71f1f;
+}
+
+.delete-btn:hover {
+    color: #ff0000;
+}
+
+.limpar-btn {
+    width: 10rem;
+    height: 1.5rem;
+    display: grid;
+    align-items: center;
+    background: transparent;
+    border-color: transparent;
+    color: #c94b4b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+    letter-spacing: 0.25rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    text-transform: capitalize;
+}
+
+.limpar-btn:hover {
+    color: #e7081a
+}

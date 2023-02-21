@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"/>
+    <title>Lista</title>
+    <link rel="stylesheet" href="liststyle.css" />
+  </head>
+  <body>
+    <section class="section-center">
+      <form class="lista">
+        <p class="alerta"></p>
+        <h2>Anotações</h2>
+        <div class="controle-lista">
+          <input type="text" id="nome" placeholder="Alguma coisa" />
+          <button type="submit" class="submit-btn">Enviar</button>
+        </div>
+      </form>
+      <div class="lista-container">
+        <div class="lista-item">
+         <!--<article class="item-button">
+              <p class="item-nome">Alguma coisa</p>
+              <div class="btn-container">
+              <button type="button" class="edit-btn"> <i class="bi bi-pencil-square"></i></button>
+              <button type="button" class="delete-btn"><i class="bi bi-trash3"></i></button>
+            </div>
+          </article>-->
+        </div> 
+        <button class="limpar-btn">Limpar</button>
+      </div>
+    </section>
+    <script src="list.js"></script>
+  </body>
+</html>
